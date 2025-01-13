@@ -14,10 +14,11 @@ This is house plant care guide application created using react native. users can
 10. view details about their profile
 
 ---
-
+## View Demo 
+https://northcoders.com/project-phase/my-plants-app
 ## Back End
 
-The back end for this project is located [here!](https://github.com/odonnellrory/my-plants-BE)
+The back end for this project is located [here!](https://github.com/Sultan0013/my-plants-BE)
 
 ---
 
