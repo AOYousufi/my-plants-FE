@@ -1,49 +1,72 @@
-# My Plants Front End
+# 🌿 My Plants App (Front-End)
 
-This is house plant care guide application created using react native. users can:
-
-1. login or sign up to the app
-2. View all the plants they own
-3. View a specific plant with detailed information regarding how to care for it
-4. Add a plant to their list
-5. identify a plant with a photo via a machine learning API
-6. receive notifications when their plant is due to be watered
-7. confirm they've watered their plant
-8. remove their plant if necessary
-9. if they plant dies they can add it to a memorial
-10. view details about their profile
-
----
-## View Demo 
-https://northcoders.com/project-phase/my-plants-app
-## Back End
-
-The back end for this project is located [here!](https://github.com/Sultan0013/my-plants-BE)
+**My Plants** is an intuitive mobile app built with **React Native** and **Expo Go**. It is designed to simplify plant care management. Track your plants effortlessly and never miss a watering again!
 
 ---
 
-## Project Setup
+## 🚀 Features:
 
-clone the repo using the following commands:
+- ✅ **Login / Sign-Up:** Secure user authentication.
+- 🌱 **Plant Collection:** Easily view all your plants in one place.
+- 📖 **Detailed Care Info:** Comprehensive care instructions for each plant.
+- ➕ **Add New Plants:** Quickly add plants to your list.
+- 📸 **Plant Identification:** Identify plants instantly using machine learning.
+- 🔔 **Watering Reminders:** Get timely notifications when plants need watering.
+- 💦 **Watering Confirmation:** Keep track by confirming completed waterings.
+- 🗑️ **Remove Plants:** Manage your collection effectively.
+- 💀 **Memorial Section:** Honour plants that have passed away.
+- 👤 **Profile Management:** Easily manage your personal details.
 
-### HTTPS
+---
 
-    git clone https://github.com/Willfoss/fe-news-project.git
+## 🎥 View Demo
 
-### SSH
+- [🌟 **Watch Live Demo on Northcoders** 🌟](https://northcoders.com/project-phase/my-plants-app)
 
-    git clone git@github.com:Willfoss/fe-news-project.git
+## 🛠️ Back-End Repository
 
-next install required packages
+- 🔗 [**My-Plants Back-End**](https://github.com/AOYousufi/my-plants-BE)
 
-    npm install
+---
 
-This is mobile application built using expo Go. In order to view the app you can run the follow command:
+## 🖥️ Project Setup
 
-    npx expo start
+Clone the repository:
 
-You will need the expo go app on your phone to view this. Once you have the app, you can view the app by scanning the QR code via the camera app (ios) or through the expo camera (android)
+### 🔒 HTTPS
 
-### disclaimer
+```bash
+git clone https://github.com/AOYousufi/my-plants-FE.git
+```
 
-The API keys for the add plant section are within the front end. You will not be able to use this feature while viewing the demo version. Please see the video for a demonstartion on how this works
+### 🔑 SSH
+
+```bash
+git clone git@github.com:AOYousufi/my-plants-FE.git
+```
+
+Install required packages:
+
+```bash
+npm install
+```
+
+Run the application using Expo Go:
+
+```bash
+npx expo start
+```
+
+- Install [Expo Go](https://expo.dev/client) on your mobile device.
+- Scan the provided QR code through your camera app (iOS) or Expo camera (Android).
+
+---
+
+## ⚠️ Disclaimer
+
+API keys for the plant identification feature are securely integrated within the front-end code.
+
+---
+
+✨ **Happy Planting! 🌱** ✨
+
