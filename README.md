@@ -1,72 +1,86 @@
-# 🌿 My Plants App (Front-End)
+# My Plants — Frontend
 
-**My Plants** is an intuitive mobile app built with **React Native** and **Expo Go**. It is designed to simplify plant care management. Track your plants effortlessly and never miss a watering again!
+A React Native mobile app for managing your plant collection. Identify plants using ML, track watering schedules, get reminders, and memorialise the ones that didn't make it.
 
----
-
-## 🚀 Features:
-
-- ✅ **Login / Sign-Up:** Secure user authentication.
-- 🌱 **Plant Collection:** Easily view all your plants in one place.
-- 📖 **Detailed Care Info:** Comprehensive care instructions for each plant.
-- ➕ **Add New Plants:** Quickly add plants to your list.
-- 📸 **Plant Identification:** Identify plants instantly using machine learning.
-- 🔔 **Watering Reminders:** Get timely notifications when plants need watering.
-- 💦 **Watering Confirmation:** Keep track by confirming completed waterings.
-- 🗑️ **Remove Plants:** Manage your collection effectively.
-- 💀 **Memorial Section:** Honour plants that have passed away.
-- 👤 **Profile Management:** Easily manage your personal details.
+Built with **React Native** and **Expo**.
 
 ---
 
-## 🎥 View Demo
+## 🔗 Links
 
-- [🌟 **Watch Live Demo on Northcoders** 🌟](https://northcoders.com/project-phase/my-plants-app)
-
-## 🛠️ Back-End Repository
-
-- 🔗 [**My-Plants Back-End**](https://github.com/AOYousufi/my-plants-BE)
+- **Demo:** [northcoders.com/project-phase/my-plants-app](https://northcoders.com/project-phase/my-plants-app)
+- **Backend Repo:** [github.com/AOYousufi/my-plants-BE](https://github.com/AOYousufi/my-plants-BE)
 
 ---
 
-## 🖥️ Project Setup
+## 🛠 Tech Stack
 
-Clone the repository:
+| Layer | Technology |
+|---|---|
+| Framework | React Native |
+| Platform | Expo Go |
+| Language | JavaScript |
+| Navigation | React Navigation |
+| Notifications | Expo Notifications |
+| Plant ID | ML-based image recognition API |
 
-### 🔒 HTTPS
+---
+
+## ✨ Features
+
+- **Authentication** — Register and log in securely
+- **Plant Collection** — View and manage all your plants in one place
+- **Plant Identification** — Identify unknown plants via photo using machine learning
+- **Care Instructions** — Detailed care info for each plant
+- **Watering Tracker** — Log waterings and confirm completions
+- **Push Notifications** — Reminders when plants need watering
+- **Plant Graveyard** — A memorial for plants that didn't survive
+- **Profile Management** — Update your personal details
+
+---
+
+## ⚙️ Local Setup
+
+### 1. Clone the repo
 
 ```bash
+# HTTPS
 git clone https://github.com/AOYousufi/my-plants-FE.git
-```
 
-### 🔑 SSH
-
-```bash
+# SSH
 git clone git@github.com:AOYousufi/my-plants-FE.git
+
+cd my-plants-FE
 ```
 
-Install required packages:
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-Run the application using Expo Go:
+### 3. Start the app
 
 ```bash
 npx expo start
 ```
 
-- Install [Expo Go](https://expo.dev/client) on your mobile device.
-- Scan the provided QR code through your camera app (iOS) or Expo camera (Android).
+### 4. Open on your device
+
+- Install **[Expo Go](https://expo.dev/client)** on your phone
+- **iOS:** Scan the QR code with your camera app
+- **Android:** Scan the QR code inside the Expo Go app
+
+> Make sure your phone and computer are on the same Wi-Fi network.
 
 ---
 
-## ⚠️ Disclaimer
+## Requirements
 
-API keys for the plant identification feature are securely integrated within the front-end code.
+- Node.js `v18+`
+- Expo Go app on iOS or Android
+- The [backend API](https://github.com/AOYousufi/my-plants-BE) running locally or pointed to a live instance
 
 ---
 
-✨ **Happy Planting! 🌱** ✨
-
+*Built as a group project during the Northcoders Digital Skills Bootcamp in Software Engineering.*
